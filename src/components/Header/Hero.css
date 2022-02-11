@@ -1,0 +1,12 @@
+.hero {
+  background-color: blueviolet;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.hero::after {
+  content: "";
+  background-image: url("../../assets/1-torso.jpg");
+}
