@@ -1,10 +1,8 @@
 import "./Navbar.css";
-import logo from "../../assets/logo.jpg";
 
 const Navbar = (props) => {
   return (
     <div className="navbar">
-      <img src={logo} className="logo" />
       <nav>
         <ul className="navbar__control">
           <li>
