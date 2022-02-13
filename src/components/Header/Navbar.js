@@ -1,9 +1,15 @@
 import "./Navbar.css";
+import logo from "../../assets/turquoise-1.jpg";
+import { HiOutlineMenu } from "react-icons/hi";
 
 const Navbar = (props) => {
   return (
     <div className="navbar">
-      <nav>
+      <div className="container">
+        <div className="img-div">
+          <img src={logo} className="logo-img" />
+          <h1>Classic Auto</h1>
+        </div>
         <ul className="navbar__control">
           <li>
             <a href="#" target="_blank">
@@ -17,11 +23,14 @@ const Navbar = (props) => {
           </li>
           <li>
             <a href="#" target="_blank">
-              Projects
+              Find a Dealership
             </a>
           </li>
         </ul>
-      </nav>
+        <div className="hamburger">
+          <HiOutlineMenu />
+        </div>
+      </div>
     </div>
   );
 };
