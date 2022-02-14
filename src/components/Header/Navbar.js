@@ -10,7 +10,7 @@ const Navbar = (props) => {
           <img src={logo} className="logo-img" />
           <h1>Classic Auto</h1>
         </div>
-        <ul className="navbar__control">
+        <ul className="nav-menu">
           <li>
             <a href="#" target="_blank">
               About
@@ -28,7 +28,7 @@ const Navbar = (props) => {
           </li>
         </ul>
         <div className="hamburger">
-          <HiOutlineMenu />
+          <HiOutlineMenu className="hamburger-icon" />
         </div>
       </div>
     </div>
