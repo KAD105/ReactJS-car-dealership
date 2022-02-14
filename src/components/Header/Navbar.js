@@ -1,8 +1,15 @@
 import "./Navbar.css";
 import logo from "../../assets/turquoise-1.jpg";
 import { HiOutlineMenu } from "react-icons/hi";
+import { FaRegTimesCircle } from "react-icons/fa";
+import { useState } from "react";
 
-const Navbar = (props) => {
+const Navbar = () => {
+  const [clicked, setClicked] = useState(false);
+  const clickHandler = () => {
+    setClicked(!clicked);
+  };
+
   return (
     <div className="navbar">
       <div className="container">
@@ -10,25 +17,23 @@ const Navbar = (props) => {
           <img src={logo} className="logo-img" />
           <h1>Classic Auto</h1>
         </div>
-        <ul className="nav-menu">
+        <ul className={clicked ? "nav-menu active" : "nav-menu"}>
           <li>
-            <a href="#" target="_blank">
-              About
-            </a>
+            <a href="#">About</a>
           </li>
           <li>
-            <a href="#" target="_blank">
-              Contact{" "}
-            </a>
+            <a href="#">Contact </a>
           </li>
           <li>
-            <a href="#" target="_blank">
-              Find a Dealership
-            </a>
+            <a href="#">Find a Dealership</a>
           </li>
         </ul>
-        <div className="hamburger">
-          <HiOutlineMenu className="hamburger-icon" />
+        <div className="hamburger " onClick={clickHandler}>
+          {clicked ? (
+            <FaRegTimesCircle className="hamburger-icon" />
+          ) : (
+            <HiOutlineMenu className="hamburger-icon" />
+          )}
         </div>
       </div>
     </div>
