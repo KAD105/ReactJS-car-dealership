@@ -1,10 +1,12 @@
 import Grids from "./components/Body/Grids";
-import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
 
 function App() {
   return (
     <div>
-      <Header />
+      <Navbar />
+      <Hero />
       <Grids />
     </div>
   );
