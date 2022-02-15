@@ -1,5 +1,5 @@
 import "./Hero.css";
-import { FaSearchPlus } from "react-icons/fa";
+import { BsSearch } from "react-icons/bs";
 const Hero = () => {
   return (
     <div className="hero">
@@ -14,12 +14,12 @@ const Hero = () => {
             <input type="text" placeholder="Search Here"></input>
           </div>
           <div className="radio-btn">
-            <input type="radio" checked></input>
+            <input type="radio" checked />
             <label>Buy</label>
-            <input type="radio"></input>
+            <input type="radio" />
             <label>Rent</label>
             <button type="submit">
-              <FaSearchPlus className="search-icon" />
+              <BsSearch className="search-icon" />
             </button>
           </div>
         </form>

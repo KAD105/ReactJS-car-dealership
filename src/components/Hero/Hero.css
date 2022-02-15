@@ -56,4 +56,37 @@
   font-size: 1.2rem;
   width: 400px;
   outline: none;
+  background-color: rgb(248, 248, 248);
+}
+
+.search .radio-btn {
+  display: flex;
+  align-items: center;
+}
+.search label {
+  padding: 0 7px;
+}
+
+.search button {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(30, 120, 145);
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+@media (max-width: 940px) {
+  .hero {
+    height: 70vh;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+  }
+
+  .search input[type="text"] {
+    width: 100%;
+  }
 }
