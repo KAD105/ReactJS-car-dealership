@@ -16,6 +16,15 @@ picture {
   padding-inline: 2rem;
 }
 
+.stacked {
+  display: grid;
+}
+
+.stacked > * {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
 .grids {
   display: grid;
   gap: 10px;
@@ -23,13 +32,21 @@ picture {
 }
 
 .card {
+  aspect-ratio: 1 / 1.5;
   border: 3px solid hotpink;
 }
 
 .card__img {
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
+}
+
+.card__content {
+  background-color: white;
+  align-self: end;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 @media (min-width: 500px) {
