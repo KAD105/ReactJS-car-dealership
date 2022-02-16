@@ -1,4 +1,4 @@
-import Grids from "./components/Body/Grids";
+import Popular from "./components/Popular/Popular";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 
@@ -7,7 +7,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Grids />
+      <Popular />
     </div>
   );
 }
