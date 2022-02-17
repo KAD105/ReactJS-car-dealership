@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ReactJS-car-dealership/static/css/main.3bc1988d.css",
+    "main.js": "/ReactJS-car-dealership/static/js/main.92d50b57.js",
+    "static/media/car_5.jpg": "/ReactJS-car-dealership/static/media/car_5.baba29f329344f406108.jpg",
+    "static/media/car_9.jpg": "/ReactJS-car-dealership/static/media/car_9.f7fa34e6a53aa4a8fe18.jpg",
+    "static/media/car_3.jpg": "/ReactJS-car-dealership/static/media/car_3.8111dc7e04fb4529ff1f.jpg",
+    "static/media/car_8.jpg": "/ReactJS-car-dealership/static/media/car_8.b17d9c4e4c78467722eb.jpg",
+    "static/media/car_4.jpg": "/ReactJS-car-dealership/static/media/car_4.16666b4dbd539cce5d81.jpg",
+    "static/media/car_7.jpg": "/ReactJS-car-dealership/static/media/car_7.261b5e2dbac5325ec5e0.jpg",
+    "static/media/car_1.jpg": "/ReactJS-car-dealership/static/media/car_1.c48a990bfa95d9f67042.jpg",
+    "static/media/car_2.jpg": "/ReactJS-car-dealership/static/media/car_2.120219ac64c8acb7c917.jpg",
+    "static/media/car_6.jpg": "/ReactJS-car-dealership/static/media/car_6.e257d68641c06c2398e5.jpg",
+    "static/media/car.jpg": "/ReactJS-car-dealership/static/media/car.a9ba459983ea7dc4bb72.jpg",
+    "static/media/turquoise-1.jpg": "/ReactJS-car-dealership/static/media/turquoise-1.627d3727b3dd2c34d521.jpg",
+    "index.html": "/ReactJS-car-dealership/index.html",
+    "main.3bc1988d.css.map": "/ReactJS-car-dealership/static/css/main.3bc1988d.css.map",
+    "main.92d50b57.js.map": "/ReactJS-car-dealership/static/js/main.92d50b57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bc1988d.css",
+    "static/js/main.92d50b57.js"
+  ]
+}
