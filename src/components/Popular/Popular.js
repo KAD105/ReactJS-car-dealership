@@ -6,13 +6,15 @@ import car_4 from "../../assets/car_4.jpg";
 import car_5 from "../../assets/car_5.jpg";
 import car_6 from "../../assets/car_6.jpg";
 import car_7 from "../../assets/car_7.jpg";
+import car_8 from "../../assets/car_8.jpg";
+import car_9 from "../../assets/car_9.jpg";
 
 const Popular = () => {
   return (
     <main>
       <div className="container">
         <div className="grids">
-          <card className="card stacked">
+          <card className="card stacked featured">
             <img src={car_1} className="card__img" />
             <div className="card__content">
               <h2 className="card__title">Pellentesque Vestibulum</h2>
@@ -20,7 +22,7 @@ const Popular = () => {
               <p className="card__description">Lorem ipsum dolor sit amet</p>
             </div>
           </card>
-          <card className="card stacked">
+          <card className="card stacked ">
             <img src={car_2} className="card__img" />
             <div className="card__content">
               <h2 className="card__title">Sodales Ipsum</h2>
@@ -70,6 +72,22 @@ const Popular = () => {
               <h2 className="card__title">Lorem Ipsum</h2>
               <p className="card__price">€318.086</p>
               <p className="card__description">Tempor augue dapibus in.</p>
+            </div>
+          </card>
+          <card className="card stacked">
+            <img src={car_8} className="card__img" />
+            <div className="card__content">
+              <h2 className="card__title">Mattis Ipsum</h2>
+              <p className="card__price">€545.006</p>
+              <p className="card__description">Nam gravida tellus orci.</p>
+            </div>
+          </card>
+          <card className="card stacked">
+            <img src={car_9} className="card__img" />
+            <div className="card__content">
+              <h2 className="card__title">Pulvinar</h2>
+              <p className="card__price">€778.000</p>
+              <p className="card__description">Aliquam in lorem gravida.</p>
             </div>
           </card>
         </div>
