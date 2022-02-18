@@ -12,6 +12,7 @@ import car_9 from "../../assets/car_9.jpg";
 const Popular = () => {
   return (
     <main>
+      <h1> Take a look at our best pick</h1>
       <div className="container">
         <div className="grids">
           <card className="card stacked featured">
