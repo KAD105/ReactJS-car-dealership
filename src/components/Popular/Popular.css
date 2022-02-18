@@ -52,7 +52,7 @@ picture {
 
 .card__title {
   line-height: 1.3rem;
-  color: firebrick;
+  color: rgb(123, 42, 42);
   font-weight: 900;
 }
 .card__price {
