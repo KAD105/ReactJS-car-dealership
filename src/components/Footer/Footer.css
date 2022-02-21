@@ -1,0 +1,58 @@
+.footer .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  background-color: rgb(83, 73, 73);
+  color: rgb(248, 248, 248);
+}
+
+.footer_car_icon {
+  width: 20rem;
+}
+
+.footer_car_icon .car-icon {
+  font-size: 3rem;
+  color: rgb(194, 64, 13);
+}
+
+.office ul {
+  padding: 0;
+}
+
+.links ul {
+  padding: 0;
+}
+
+.links li {
+  padding: 4px 0;
+}
+
+.links a {
+  color: rgb(248, 248, 248);
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  margin: 5rem 0 1.75 0;
+}
+
+form .arrow-icon,
+.mail-icon {
+  font-size: 1rem;
+}
+form .emil-input {
+  background-color: rgb(83, 73, 73);
+  outline: none;
+  border: none;
+}
+
+.contact-icon {
+  font-size: 2.5rem;
+  margin: 0.5rem;
+  color: aqua;
+}
+
+.twitter {
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
